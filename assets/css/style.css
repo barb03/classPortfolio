@@ -1,0 +1,174 @@
+/*
+======================================
+Custom Styles
+======================================
+*/
+
+/*
+======================================
+Index page
+======================================
+*/
+
+* {
+    box-sizing: border-box;   
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    color: #333;
+    background: #FFEFD5;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+header{    
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: white;
+    text-align: left;
+}
+
+.nav-link {       
+    float: right;       
+    margin-right: 15px;    
+    font-size: 15px;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.box{
+    background: #4aaaa5;  
+    color: white;  
+    max-width: 250px;  
+    margin-left: 100px;  
+    padding: 10px;
+    float: left;
+}
+
+.container{   
+    width: 1050px;    
+    height: 100%;
+}
+
+#bioInfo,
+#bioImage {
+  float: left;
+  background-color: white;
+  padding: 10px;
+}
+
+#bioInfo {
+  width: 70%;  
+  margin: 25px auto 100px 250px;
+}
+
+#bioImage {
+  width: 200px;
+  height: 200px;
+  margin: 10px;  
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+    margin-top: 20px;   
+    text-align: center;
+    font-size: smaller;
+    background: grey;
+    border-top: 8px solid #4aaaa5;
+  }
+
+/*
+======================================
+Contact Page
+======================================
+*/
+
+#contactInfo{
+    color: #4aaaa5;
+    width: 70%;  
+    margin: 25px auto 100px 250px;
+    background-color: white;
+    padding: 10px;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input{
+    width: 300px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mybutton{
+    color: #fff;
+    background-color: #4aaaa5;
+    border-radius: 5px;
+    width: 100px;    
+    cursor: pointer;
+}
+
+.mybutton:hover{
+    background-color: #b200ff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*
+======================================
+Portfolio Page
+======================================
+*/
+
+#portfo{
+    color: #4aaaa5;
+    width: 70%;      
+    margin: 25px auto 100px 250px;
+    background-color: white;
+    padding: 10px;   
+    overflow:visible;    
+    overflow-y: hidden; 
+}
+
+img{
+    width: 200px;
+    height: 200px;    
+    margin: 20px;
+}
+
+#hangman{
+    border: 1px solid black;
+}
+
+.parent-div {
+    position: relative;
+    float: left;
+}
+
+.childBox{
+    position: absolute;    
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;    
+    z-index: 1;
+    left: 20px;
+    top: 157px;
+    right: 20px;
+    text-align: center;
+    
+}
+
