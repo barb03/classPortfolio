@@ -107,12 +107,18 @@ label{
 input{
     width: 300px;
     font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: wheat;
 }
 
 textarea{
     width: 300px;
     height: 100px;
     font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: wheat;
+}
+
+textarea:focus, input:focus  {
+    background-color: white;
 }
 
 .mybutton{
